@@ -1,0 +1,17 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "express js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "mirza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
