@@ -2,6 +2,9 @@
 const express = require('express'); // importing express js
 const app = express();  // executing express js 
 
+const connectDB= require('./mongodb/db_connection');
+connectDB();
+
 
 
 app.get('', (req, res) => {
