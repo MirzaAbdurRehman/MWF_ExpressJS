@@ -7,19 +7,19 @@ connectDB();
 const port = 4001;
 
 
-// const addEmployee =  async () => {
-//     await empModel.create({
-//         name: "ali",
-//         email: "ali12@gmail.com",
-//         position: "Mid Developer",
-//         department: "Development",
-//         isEliggble: true
-//     });
+const addEmployee =  async () => {
+    await empModel.create({
+        name: "Areeba",
+        email: "Areeba12@gmail.com",
+        position: "Mid Developer",
+        department: "Development",
+        isEliggble: true
+    });
 
-//     console.log("Employee Added");
-// }
+    console.log("Employee Added");
+}
 
-// addEmployee();
+addEmployee();
 
 
 const getEmployee = async () => {
@@ -32,7 +32,7 @@ const getEmployee = async () => {
     }
 }
 
-getEmployee();
+// getEmployee();
 
 
 app.listen((port), () => {
